@@ -1,0 +1,19 @@
+label{
+    display: flex;
+    width: 600px;
+    text-align: center;
+}
+input{
+    display: flex;
+    width: 300px;
+    text-align:start;
+}
+button:hover{
+    color:darkred;
+    
+}
+button:hover Clik me:not(:hover){
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
